@@ -1,3 +1,4 @@
+//Will be Rectangle1.as equivalent
 (function() {
 
 function Rectangle(width, height, outlineColour, fillColour) {
