@@ -1,4 +1,5 @@
-//Created by RI 2014-12-10 15:36
+//Created by RI 2014-12-10 15:36, modified by AG 2014-12-10 16:00
+
 (function() {
 
 function Rectangle(width, height, outlineColour, fillColour) {
@@ -33,7 +34,7 @@ p.setup = function() {
 } ;
 
 p.handleClick = function (event) {
-	alert("handleClick starts with rectangle of width: "+this.width);
+	alert("handleClick starts with rectangle of width: " + this.width + " " + this.height);
 } ;
 
 p.handleRollOver = function(event) {
