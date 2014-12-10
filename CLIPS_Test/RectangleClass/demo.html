@@ -20,7 +20,10 @@
 			var btn3 = stage.addChild(new Rectangle(25, 25, "#0FF", "#F0F"));
 			btn3.y = btn2.y + 105;
 			
-			btn1.x = btn2.x = btn3.x = 20;
+			var btn4 = stage.addChild(new Rectangle(50, 50, "#0FF", "#060"));
+			btn4.y = btn3.y + 30;
+			
+			btn1.x = btn2.x = btn3.x = btn4.x = 20;
 			
 			createjs.Ticker.on("tick", stage);
 		}
